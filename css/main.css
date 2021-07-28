@@ -1,0 +1,229 @@
+body {
+  background-color: gold;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b0c5d9;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.box__chatting {
+  width: 505px;
+  background-color: #fff;
+}
+
+.box__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px;
+  background-color: #6995d6;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box__span {
+  width: 7px;
+  height: 7px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.box__heading {
+  margin: 0;
+  margin-right: 200px;
+  letter-spacing: 1px;
+  font-size: 17px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.box__img {
+  opacity: 0.7;
+}
+
+.box__close:hover .box__img {
+  opacity: 1;
+}
+
+.box__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.box__hr {
+  width: 100%;
+  height: 2px;
+  margin: 0;
+  background-color: #c5c1bd;
+  border: none;
+}
+
+.box__top--line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  color: #c5c1bd;
+}
+
+.box__top--line::before, .box__top--line::after {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  content: "";
+  height: 2px;
+  background-color: #c5c1bd;
+}
+
+.box__top--time {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.box__message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
+.box__time {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #c5c1bd;
+}
+
+.box__message--left {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.box__message--right {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.box__text {
+  display: inline-block;
+  max-width: 70%;
+  margin: 0;
+  margin-top: 7px;
+  padding: 10px;
+  font-weight: 500;
+  color: #4b4a3f;
+  border-radius: 3px;
+}
+
+.box__text--left {
+  background-color: #e6edf6;
+}
+
+.box__text--right {
+  background-color: #f2f2f2;
+}
+
+.box__blocked {
+  margin: 0;
+  padding: 10px;
+  font-weight: 500;
+  color: #4b4a3f;
+  border-radius: 3px;
+  background-color: #fec2c1;
+  margin-bottom: 5px;
+}
+
+.box__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.box__group {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.box__input {
+  -webkit-box-flex: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+  width: 100%;
+  border: none;
+  font-weight: 500;
+  outline: none;
+}
+
+.box__input:focus {
+  -webkit-box-shadow: 0 0 0 5px rgba(105, 149, 214, 0.5);
+          box-shadow: 0 0 0 5px rgba(105, 149, 214, 0.5);
+}
+
+.box__button {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  margin-left: 10px;
+  word-wrap: break-word;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: transparent;
+  color: #7599d8;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.box__button:focus {
+  -webkit-box-shadow: 0 0 0 5px rgba(105, 149, 214, 0.5);
+          box-shadow: 0 0 0 5px rgba(105, 149, 214, 0.5);
+}
